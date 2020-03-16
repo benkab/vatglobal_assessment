@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 13px;
+  background: #010508;
+}
+
+body code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body .row {
+  margin: 0;
+}
+
+body .app {
+  padding-top: 15vh;
+}
+
+@media (max-width: 600px) {
+  body .app {
+    padding-top: 5vh;
+  }
+}
+
+body .app .panel.date-selector-panel {
+  margin-bottom: 15px;
+  background-color: #12212e;
+}
+
+body .app .panel.date-selector-panel .panel-body {
+  padding: 25px;
+}
+
+body .app .panel.date-selector-panel .panel-body label {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+body .app .panel.date-selector-panel .panel-body .react-daterange-picker {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  height: 50px;
+  border: none !important;
+  background-color: #1d2e3d;
+}
+
+body .app .panel.date-selector-panel .panel-body .react-daterange-picker .react-daterange-picker__wrapper {
+  min-width: 100%;
+  border: none !important;
+}
+
+body .app .panel.date-selector-panel .panel-body .react-daterange-picker .react-daterange-picker__wrapper .react-daterange-picker__inputGroup,
+body .app .panel.date-selector-panel .panel-body .react-daterange-picker .react-daterange-picker__wrapper .react-daterange-picker__range-divider {
+  visibility: hidden;
+}
+
+body .app .panel.date-selector-panel .panel-body .react-daterange-picker button {
+  outline: none !important;
+}
+
+body .app .panel.date-selector-panel .panel-body .react-daterange-picker button .react-daterange-picker__button__icon {
+  width: 15px;
+}
+
+body .app .panel.date-selector-panel .panel-body .react-calendar.react-calendar--selectRange {
+  background-color: #010508;
+  border: none !important;
+}
+
+body .app .list-group {
+  background-color: #04070a;
+}
+
+body .app .list-group li {
+  background-color: #080c11;
+  color: #c5c3c3;
+  border-color: #010508;
+  padding: 20px 25px;
+}
+
+body .app .list-group li span {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+body .app .event-container {
+  margin-top: 15px !important;
+  padding: 20px 25px;
+  background-color: #daae07;
+  border-radius: 4px;
+}
+
+body .app .event-container p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 20px;
+}
+
+body .app .event-loader-container {
+  height: 80px;
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .app .event-loader-container .lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+body .app .event-loader-container .lds-ring div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid #daae07;
+  border-radius: 50%;
+  -webkit-animation: lds-ring 0.8s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+          animation: lds-ring 0.8s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #daae07 transparent transparent transparent;
+}
+
+body .app .event-loader-container .lds-ring div:nth-child(1) {
+  -webkit-animation-delay: -0.45s;
+          animation-delay: -0.45s;
+}
+
+body .app .event-loader-container .lds-ring div:nth-child(2) {
+  -webkit-animation-delay: -0.3s;
+          animation-delay: -0.3s;
+}
+
+body .app .event-loader-container .lds-ring div:nth-child(3) {
+  -webkit-animation-delay: -0.15s;
+          animation-delay: -0.15s;
+}
+
+@-webkit-keyframes lds-ring {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes lds-ring {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=index.css.map */
